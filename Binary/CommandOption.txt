@@ -1,0 +1,4 @@
+UT.exe
+/coverage
+/exclude:std::*
+/exclude:filter_demo_namespace::*

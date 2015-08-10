@@ -1,0 +1,94 @@
+﻿已經開始建置於 2015/8/10 下午 02:01:09。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\BON\Desktop\POSD_HW1\QT\QT.vcxproj"。
+     1>CustomBuild:
+         Uic'ing qt.ui...
+         Moc'ing GraphicUI.h...
+         Rcc'ing qt.qrc...
+     1>RCC : warning : No resources in 'C:\Users\BON\Desktop\POSD_HW1\QT\qt.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\gtest\include /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include\QtCore /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ChangeParentCommand.cpp Circle.cpp Command.cpp CommandManager.cpp Component.cpp ComponentFactory.cpp Composite.cpp CutNodeCommand.cpp Decorator.cpp DeleteComponentCommand.cpp DisplayNodeVisitor.cpp EditComponentCommand.cpp GeneratedFiles\Debug\moc_GraphicUI.cpp GraphicComponent.cpp GraphicPresentation.cpp GraphicsView.cpp GraphicUI.cpp CreateGraphicCommand.cpp InsertNodeChildCommand.cpp InsertNodeParentCommand.cpp InsertNodeSiblingCommand.cpp main.cpp MindMapModel.cpp Node.cpp NodeVisitor.cpp Observer.cpp PasteNodeCommand.cpp Presentation.cpp Rectangle.cpp Root.cpp SaveNodeVisitor.cpp Subject.cpp TextUI.cpp Triangle.cpp
+         ChangeParentCommand.cpp
+         Circle.cpp
+         Command.cpp
+         CommandManager.cpp
+         Component.cpp
+         ComponentFactory.cpp
+         Composite.cpp
+         CutNodeCommand.cpp
+         Decorator.cpp
+         DeleteComponentCommand.cpp
+         DisplayNodeVisitor.cpp
+         EditComponentCommand.cpp
+         moc_GraphicUI.cpp
+         GraphicComponent.cpp
+         GraphicPresentation.cpp
+         GraphicsView.cpp
+         GraphicUI.cpp
+         CreateGraphicCommand.cpp
+         InsertNodeChildCommand.cpp
+         InsertNodeParentCommand.cpp
+         正在產生程式碼...
+         正在編譯...
+         InsertNodeSiblingCommand.cpp
+         main.cpp
+         MindMapModel.cpp
+         Node.cpp
+         NodeVisitor.cpp
+         Observer.cpp
+         PasteNodeCommand.cpp
+         Presentation.cpp
+         Rectangle.cpp
+         Root.cpp
+         SaveNodeVisitor.cpp
+         Subject.cpp
+         TextUI.cpp
+         Triangle.cpp
+         正在產生程式碼...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\gtest\include /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include\QtCore /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_qt.cpp
+         qrc_qt.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\QT.res" QT.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\BON\Desktop\POSD_HW1\x64\Debug\\QT.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.3.2\5.3\msvc2013_64\lib C:\gtest\lib\gtestd.lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\BON\Desktop\POSD_HW1\x64\Debug\QT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\BON\Desktop\POSD_HW1\x64\Debug\QT.lib" /MACHINE:X64 x64\Debug\QT.res
+         x64\Debug\ChangeParentCommand.obj
+         x64\Debug\Circle.obj
+         x64\Debug\Command.obj
+         x64\Debug\CommandManager.obj
+         x64\Debug\Component.obj
+         x64\Debug\ComponentFactory.obj
+         x64\Debug\Composite.obj
+         x64\Debug\CutNodeCommand.obj
+         x64\Debug\Decorator.obj
+         x64\Debug\DeleteComponentCommand.obj
+         x64\Debug\DisplayNodeVisitor.obj
+         x64\Debug\EditComponentCommand.obj
+         x64\Debug\moc_GraphicUI.obj
+         x64\Debug\qrc_qt.obj
+         x64\Debug\GraphicComponent.obj
+         x64\Debug\GraphicPresentation.obj
+         x64\Debug\GraphicsView.obj
+         x64\Debug\GraphicUI.obj
+         x64\Debug\CreateGraphicCommand.obj
+         x64\Debug\InsertNodeChildCommand.obj
+         x64\Debug\InsertNodeParentCommand.obj
+         x64\Debug\InsertNodeSiblingCommand.obj
+         x64\Debug\main.obj
+         x64\Debug\MindMapModel.obj
+         x64\Debug\Node.obj
+         x64\Debug\NodeVisitor.obj
+         x64\Debug\Observer.obj
+         x64\Debug\PasteNodeCommand.obj
+         x64\Debug\Presentation.obj
+         x64\Debug\Rectangle.obj
+         x64\Debug\Root.obj
+         x64\Debug\SaveNodeVisitor.obj
+         x64\Debug\Subject.obj
+         x64\Debug\TextUI.obj
+         x64\Debug\Triangle.obj
+         QT.vcxproj -> C:\Users\BON\Desktop\POSD_HW1\x64\Debug\QT.exe
+     1>專案 "C:\Users\BON\Desktop\POSD_HW1\QT\QT.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:17.23
